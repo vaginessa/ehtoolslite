@@ -25,7 +25,7 @@
       <img src="https://img.shields.io/github/issues/entynetproject/ehtools.svg">
   </a>
   <a href="https://github.com/entynetproject/ehtoolslite">
-      <img src="https://img.shields.io/badge/files-19-red.svg?maxAge=2592000">
+      <img src="https://img.shields.io/badge/files-17-red.svg?maxAge=2592000">
   </a>
   <a href="https://github.com/entynetproject/ehtools/wiki">
       <img src="https://img.shields.io/badge/ehtools%20-wiki-lightgrey.svg">
