@@ -34,7 +34,7 @@
 #
 
 # set -x
-VERSION=2.1.6
+VERSION=2.1.5
 #Number of tools with keyboard shortcut support
 HOWMANYTOOLS=53
 BACKL="0"
@@ -8212,7 +8212,7 @@ function about_option
 	printf '\033]2;ENTYNETPROJECT\a'
 	echo -e "Open our site, please :з"
 	echo -e ""$LBS"Total ehtoolslite downloads:"$CE" $DONATIONS"
-	echo -e "Welcome to ehtoolslite framework PRO free trial!"
+	echo -e "Welcome to ehtools framework LITE!"
 	echo -e ""$YS" 1"$CE") Open our site"
 	echo -e ""$YS" 2"$CE") Open github repo of ehtoolslite"
 	echo -e ""$RS" e"$CE") Delete EPATH firmware (\e[5;31mDANGER!\e[0m)"
