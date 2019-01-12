@@ -8,7 +8,7 @@
                                               ╚══════╝╚═╝  ╚═╝   ╚═╝  
                                       (Hacker support from entynetproject corp)
                                             entynetproject.simplesite.com
-                                         Ehtools Framework [based on lscript]
+                                                  Ehtools Framework
 
 <h4 align="center">See also this:</h4>
 
