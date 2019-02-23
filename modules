@@ -6,9 +6,11 @@ echo -e "ehtools    \/_/_/  By Ivan Nikolsky "
 sleep 3
 echo -e "Welcome to Modules (BETA)"
 echo -e "It's fully safely!"
-echo -e "Press \e[1;33many key\e[0m to install modules (BETA)"
-read -n 1
+echo -e "\e[4;31mNOT COMPATIBLE!!!\e[0m"
 clear
+break
+clear
+exit
 echo -e "Well, we are going to start!"
 sleep 2
 echo -e "\e[4;32mPreparing to install...\e[0m"
