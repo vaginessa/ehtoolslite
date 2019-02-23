@@ -33,7 +33,7 @@ function update_ehtools
 				#~ echo -e "Cloning the latest github version to new "$EPATH""
 				sleep 1
 				cd
-				git clone https://github.com/entynetproject/ehtools.git
+				git clone https://github.com/entynetproject/ehtoolslite.git
 				cd "$EPATH"
 				chmod +x install.sh
 				clear
