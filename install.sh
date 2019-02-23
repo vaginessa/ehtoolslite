@@ -220,6 +220,6 @@ sleep 1
 clear
 echo -e "Open a NEW terminal and type 'eht' to launch framework"
 sleep  4
-echo -e "Modules (BETA) not compatible with this version!"
+echo -e "Modules (BETA) is not compatible with this version!"
 sleep 3
 exit
