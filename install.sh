@@ -85,31 +85,31 @@ then
 	chmod +x /root/ehtoolslite/install.sh
 	gnome-terminal -- "bash /root/ehtoolslite/install.sh"
 fi
-echo -e "Checking compatibility..."
+echo -e "\e[44mChecking compatibility...\e[0m"
 sleep 20
-echo -e "Success!"
+echo -e "\e[4;32mSuccess!\e[0m"
 sleep 3
-echo -e "Installing library..."
+echo -e "\e[1;34mInstalling library...\e[0m"
 sleep 1
-echo -e "Fixing permissions..."
+echo -e "\e[1;34mFixing permissions...\e[0m"
 sleep 2
-echo -e "Connecting to server..."
+echo -e "\e[44mConnecting to server...\e[0m"
 sleep 10
-echo -e "Success!"
+echo -e "\e[4;32mSuccess!\e[0m"
 sleep 3
-echo -e "Creating /bin/ehtoolslite..."
+echo -e "\e[1;34mCreating /bin/ehtools...\e[0m"
 sleep 4
-echo -e "Success!"
+echo -e "\e[4;32mSuccess!\e[0m"
 sleep 3
-echo -e "Saving results..."
+echo -e "\e[1;34mSaving results...\e[0m"
 sleep 10
-echo -e "Creating LITE API..."
+echo -e "\e[1;34mCreating LITE API...\e[0m"
 sleep 10
-echo -e "Success!"
+echo -e "\e[4;32mSuccess!\e[0m"
 sleep 3
-echo -e "Downloading EPATH firmware..."
+echo -e "\e[44mDownloading EPATH firmware...\e[0m"
 sleep 20
-echo -e "Success!"
+echo -e "\e[4;32mSuccess!\e[0m"
 sleep 3
 echo -e "+---------------------------------+" 
 echo -e "|    WELCOME TO EPATH FIRMWARE!   |"
@@ -120,9 +120,9 @@ echo -e "|  - Ivan Nikolsky (Enty)         |"
 echo -e "|                                 |"
 echo -e "+---------------------------------+"
 sleep 5
-echo -e "Editing Ehtools EPATH..."
+echo -e "\e[44mEditing Ehtools EPATH...\e[0m"
 sleep 10
-echo -e "Success!"
+echo -e "\e[4;32mSuccess!\e[0m"
 sleep 3
 chmod +x /root/ehtoolslite/eht1
 chmod +x /root/ehtoolslite/eht2
@@ -183,12 +183,12 @@ then
 	BASHCHECK=$(cat ~/.bashrc | grep "bin/ehtools")
 	if [[ "$BASHCHECK" != "i" ]]
 	then
-		echo -e "Congratulations you have successfully installed our Framework"
+		echo -e "\e[4;44mCongratulations you have successfully installed our Framework\e[0m"
 		sleep 3
 	fi
 	echo -e "Adding EntynetHackerTools to PATH so you can access it from anywhere"
 	sleep 3
-        echo -e "Welcome to EntynetHackerTools LITE :3"
+        echo -e "\e[4;44mWelcome to EntynetHackerTools LITE :3\e[0m"
 	sleep 3
         echo -e "More information about PRO or other plans on our site"
 	sleep 1
@@ -237,8 +237,6 @@ then
 fi
 sleep 1
 clear
-echo -e "Open a NEW terminal and type 'eht' to launch framework"
-sleep  4
-echo -e "Modules (BETA) is not compatible with this version!"
+echo -e "Open a NEW terminal and type '\e[4;44meht\e[0m' to launch framework"
 sleep 3
 exit
