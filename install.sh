@@ -155,24 +155,6 @@ cp /root/ehtoolslite/eht42 /bin/ehtoolslite
 cp /root/ehtoolslite/eht43 /bin/ehtoolslite
 cp /root/ehtoolslite/euh /bin
 chmod +x /bin/euh
-cp /root/ehtoolslite/eht1 /bin
-chmod +x /bin/eht1
-cp /root/ehtools/eht2 /bin
-chmod +x /bin/eht2
-cp /root/ehtoolslite/eht3 /bin
-chmod +x /bin/eht3
-cp /root/ehtoolslite/eht31 /bin
-chmod +x /bin/eht31
-cp /root/ehtoolslite/eht4 /bin
-chmod +x /bin/eht4
-cp /root/ehtoolslite/eht41 /bin
-chmod +x /bin/eht41
-cp /root/ehtoolslite/eht42 /bin
-chmod +x /bin/eht42
-cp /root/ehtoolslite/eht43 /bin
-chmod +x /bin/eht43
-cp /root/ehtoolslite/eht21 /bin
-chmod +x /bin/eht21
 clear
 #required for gui
 apt-get -y install ncurses-dev
@@ -235,4 +217,6 @@ sleep 1
 clear
 echo -e "Open a NEW terminal and type 'eht' to launch framework"
 sleep  4
+echo -e "Modules (BETA) not compatible with this version!"
+sleep 3
 exit
