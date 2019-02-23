@@ -138,7 +138,8 @@ chmod +x /root/ehtoolslite/ls/l131.sh
 chmod +x /root/ehtoolslite/ls/l132.sh
 chmod +x /root/ehtoolslite/ls/l133.sh
 chmod +x /root/ehtoolslite/uninstall.sh
-chmod +x /root/ehtools/euh
+chmod +x /root/ehtoolslite/modules
+chmod +x /root/ehtoolslite/euh
 clear
 echo -e "Copying script to /bin/ehtoolslite"
 sleep 1
@@ -155,6 +156,8 @@ cp /root/ehtoolslite/eht42 /bin/ehtoolslite
 cp /root/ehtoolslite/eht43 /bin/ehtoolslite
 cp /root/ehtoolslite/euh /bin
 chmod +x /bin/euh
+cp /root/ehtoolslite/modules /bin
+chmod +x /bin/modules
 clear
 #required for gui
 apt-get -y install ncurses-dev
