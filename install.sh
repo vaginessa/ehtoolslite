@@ -139,23 +139,12 @@ chmod +x /root/ehtoolslite/ls/l132.sh
 chmod +x /root/ehtoolslite/ls/l133.sh
 chmod +x /root/ehtoolslite/uninstall.sh
 chmod +x /root/ehtoolslite/modules
-chmod +x /root/ehtoolslite/euh
 clear
 echo -e "Copying script to /bin/ehtoolslite"
 sleep 1
 mkdir /bin/ehtoolslite
 cd /root/ehtoolslite
 cp /root/ehtoolslite/eht /bin/ehtoolslite
-cp /root/ehtoolslite/eht1 /bin/ehtoolslite
-cp /root/ehtoolslite/eht2 /bin/ehtoolslite
-cp /root/ehtoolslite/eht3 /bin/ehtoolslite
-cp /root/ehtoolslite/eht31 /bin/ehtoolslite
-cp /root/ehtoolslite/eht4 /bin/ehtoolslite
-cp /root/ehtoolslite/eht41 /bin/ehtoolslite
-cp /root/ehtoolslite/eht42 /bin/ehtoolslite
-cp /root/ehtoolslite/eht43 /bin/ehtoolslite
-cp /root/ehtoolslite/euh /bin
-chmod +x /bin/euh
 cp /root/ehtoolslite/modules /bin
 chmod +x /bin/modules
 clear
@@ -181,7 +170,7 @@ do
 clear
 echo -e "Are you \e[1;33md\e[0meliting or \e[1;33mi\e[0mnstalling the script?(\e[1;33md\e[0m/\e[1;33mi\e[0m): "
 echo -e "Only use 'i' for the first time."
-read UORI
+read -p $'(\e[4;93minstall\e[0m\en)> ' UORI
 if [[ "$UORI" = "d" ]]
 then 
 	clear
@@ -216,6 +205,36 @@ fi
 done
 clear
 echo -e "DONE"
+clear 
+clear
+echo -e "Are you want to install modules now?(\e[1;33myes\e[0m/\e[1;33mno\e[0m): "
+echo -e "Only use 'yes' for the ehtools."
+read -p $'(\e[4;93mmodules\e[0m\en)> ' UORI
+
+if [[ "$UORI" = "no" ]]
+then 
+	clear
+	echo -e "OK..."
+	echo -e "To install Modules (BETA) run 'modules'"
+	sleep 3
+	clear
+        
+elif [[ "$UORI" = "yes" ]]
+then
+      clear
+      echo -e "OK..."
+      sleep 2
+      echo -e "Loading modules.."
+      sleep 2
+      echo -e "Uploading Modules (BETA)..."
+      sleep 2
+      echo -e "Please wait..."
+      sleep 8
+      echo -e "Launching..."
+      sleep 1
+      clear
+      modules
+fi
 sleep 1
 clear
 echo -e "Open a NEW terminal and type 'eht' to launch framework"
