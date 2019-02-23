@@ -1,8 +1,8 @@
-echo -e "            ____   "
-echo -e "Modules    /\___\  "
-echo -e "(BETA)    /\ \___\ "
-echo -e " for      \ \/ / / "
-echo -e "ehtools    \/_/_/  By Ivan Nikolsky "
+echo -e "               ____   "
+echo -e " Modules      /\___\  "
+echo -e " (BETA)      /\ \___\ "
+echo -e "   for       \ \/ / / "
+echo -e "ehtoolslite   \/_/_/  By Ivan Nikolsky "
 sleep 3
 echo -e "Welcome to Modules (BETA)"
 sleep 1
@@ -59,38 +59,35 @@ echo -e "\e[4;32m(com.entynetproject.modules:ehtools.tar.gz)...\e[0m"
 sleep 3
 echo -e "\e[4;32mSuccess!\e[0m"
 sleep 5
-chmod +x /root/ehtools/eht1
-chmod +x /root/ehtools/eht2
-chmod +x /root/ehtools/eht3
-chmod +x /root/ehtools/eht21
-chmod +x /root/ehtools/eht31
-chmod +x /root/ehtools/eht4
-chmod +x /root/ehtools/eht41
-chmod +x /root/ehtools/eht42
-chmod +x /root/ehtools/eht43
-chmod +x /root/ehtools/euh
+chmod +x /root/ehtoolslite/eht1
+chmod +x /root/ehtoolslite/eht2
+chmod +x /root/ehtoolslite/eht3
+chmod +x /root/ehtoolslite/eht21
+chmod +x /root/ehtoolslite/eht31
+chmod +x /root/ehtoolslite/eht4
+chmod +x /root/ehtoolslite/eht41
+chmod +x /root/ehtoolslite/eht42
+chmod +x /root/ehtoolslite/eht43
 sleep 5 
 echo -e "Setting up permissions..."
 sleep 5
-cp /root/ehtools/euh /bin
-chmod +x /bin/euh
-cp /root/ehtools/eht1 /bin
+cp /root/ehtoolslite/eht1 /bin
 chmod +x /bin/eht1
-cp /root/ehtools/eht2 /bin
+cp /root/ehtoolslite/eht2 /bin
 chmod +x /bin/eht2
-cp /root/ehtools/eht3 /bin
+cp /root/ehtoolslite/eht3 /bin
 chmod +x /bin/eht3
-cp /root/ehtools/eht31 /bin
+cp /root/ehtoolslite/eht31 /bin
 chmod +x /bin/eht31
-cp /root/ehtools/eht4 /bin
+cp /root/ehtoolslite/eht4 /bin
 chmod +x /bin/eht4
-cp /root/ehtools/eht41 /bin
+cp /root/ehtoolslite/eht41 /bin
 chmod +x /bin/eht41
-cp /root/ehtools/eht42 /bin
+cp /root/ehtoolslite/eht42 /bin
 chmod +x /bin/eht42
-cp /root/ehtools/eht43 /bin
+cp /root/ehtoolslite/eht43 /bin
 chmod +x /bin/eht43
-cp /root/ehtools/eht21 /bin
+cp /root/ehtoolslite/eht21 /bin
 chmod +x /bin/eht21
 sleep 5
 echo -e "Good job! You can open modules with commands:"
