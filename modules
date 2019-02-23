@@ -11,7 +11,7 @@ echo -e "Press \e[1;33many key\e[0m to install modules (BETA)"
 read -n 1
 echo -e "Well, we are going to start!"
 sleep 2
-echo -e echo -e "\e[4;32mPreparing to install...\e[0m"
+echo -e "\e[4;32mPreparing to install...\e[0m"
 sleep 1
 echo -e "Getting 10%"
 sleep 1
