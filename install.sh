@@ -127,6 +127,7 @@ sleep 3
 chmod +x /root/ehtoolslite/eht1
 chmod +x /root/ehtoolslite/eht2
 chmod +x /root/ehtoolslite/eht3
+chmod +x /root/ehtoolslite/eht21
 chmod +x /root/ehtoolslite/eht31
 chmod +x /root/ehtoolslite/eht
 chmod +x /root/ehtoolslite/eht4
@@ -137,6 +138,7 @@ chmod +x /root/ehtoolslite/ls/l131.sh
 chmod +x /root/ehtoolslite/ls/l132.sh
 chmod +x /root/ehtoolslite/ls/l133.sh
 chmod +x /root/ehtoolslite/uninstall.sh
+chmod +x /root/ehtools/euh
 clear
 echo -e "Copying script to /bin/ehtoolslite"
 sleep 1
@@ -151,6 +153,26 @@ cp /root/ehtoolslite/eht4 /bin/ehtoolslite
 cp /root/ehtoolslite/eht41 /bin/ehtoolslite
 cp /root/ehtoolslite/eht42 /bin/ehtoolslite
 cp /root/ehtoolslite/eht43 /bin/ehtoolslite
+cp /root/ehtoolslite/euh /bin
+chmod +x /bin/euh
+cp /root/ehtoolslite/eht1 /bin
+chmod +x /bin/eht1
+cp /root/ehtools/eht2 /bin
+chmod +x /bin/eht2
+cp /root/ehtoolslite/eht3 /bin
+chmod +x /bin/eht3
+cp /root/ehtoolslite/eht31 /bin
+chmod +x /bin/eht31
+cp /root/ehtoolslite/eht4 /bin
+chmod +x /bin/eht4
+cp /root/ehtoolslite/eht41 /bin
+chmod +x /bin/eht41
+cp /root/ehtoolslite/eht42 /bin
+chmod +x /bin/eht42
+cp /root/ehtoolslite/eht43 /bin
+chmod +x /bin/eht43
+cp /root/ehtoolslite/eht21 /bin
+chmod +x /bin/eht21
 clear
 #required for gui
 apt-get -y install ncurses-dev
