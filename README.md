@@ -168,3 +168,12 @@ Last time, configuration errors of our program occur and it can not be updated b
 if not working:
 
 > euh --update or euh -u
+
+# Modules (eht21, eht1...) #
+
+You can use ehtools's module such as commands:
+
+> eht21
+............... resieved a segmentation fault!
+
+Try it if ehtools'main code not working :)
