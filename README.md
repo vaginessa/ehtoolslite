@@ -163,6 +163,8 @@ You can also manage your installed tools by accessing option 6. To download Pupy
 If you have some problems with update use our "Ehtools update helper"
 Last time, configuration errors of our program occur and it can not be updated by itself.
 
-> cd /ehtools
+> euh
 
-> ./ehtools_update_helper --update
+if not working:
+
+> euh --update or euh -u
