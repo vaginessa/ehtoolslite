@@ -6,10 +6,12 @@ echo -e "ehtools    \/_/_/  By Ivan Nikolsky "
 sleep 3
 echo -e "Welcome to Modules (BETA)"
 echo -e "It's fully safely!"
+sleep 5
 echo -e "Press \e[1;33many key\e[0m to install modules (BETA)"
+read -n 1
 clear
 sleep 5
-echo -e "\e[4;31meht1 returned an error code (1)\e[0m"
+echo -e "\e[4;31mOops, something went wrong. Try again later!\e[0m"
 sleep 10
 exit
 echo -e "Well, we are going to start!"
