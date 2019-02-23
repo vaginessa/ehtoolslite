@@ -18,7 +18,12 @@ sleep 1
 echo -e "Getting 20%"
 sleep 1
 echo -e "Getting 30%"
+sleep 5
+echo -e "\e[4;31m/root/ehtools/modules returned an error code (not supported)\e[0m"
+echo -e "Oops, you version "ehtoolslite is not compatible!"
 sleep 1
+echo -e "You should install ehtools!"
+clear
 echo -e "Getting 40%"
 sleep 1
 echo -e "Getting 50%"
