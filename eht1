@@ -208,7 +208,7 @@ function remove_temps
 }
 function autoapselect
 {
-file="/root/EntynetHackerTools/tempairodump-01.csv"
+file="/root/ehtoolslite/tempairodump-01.csv"
 if [[ -f "$file" ]]
 then
 	lines=$(cat $file | awk '/WPA|WPA2|OPN|WEP/ {print}' | awk 'END{print NR}')
@@ -654,8 +654,7 @@ do
 	echo -e ""$YS" 2"$CE") Set another BSSID and CHANNEL"
 	echo -e ""$YS" r"$CE") Scan again"
 	echo -e ""$YS" b"$CE") Go back"
-	echo -e "Choose: "
-	read CAPTH
+	read -p $'(\e[4;31mhandshake\e[0m)> ' CAPTH
 	if [[ "$CAPTH" = "back" || "$CAPTH" = "b" ]]
 	then
 		break
@@ -849,10 +848,9 @@ echo -e ""$YS" 4"$CE") Verify a handshake"
 echo -e ""$YS" 5"$CE") Clean a handshake"
 echo -e ""$YS" 6"$CE") Remove .csv and .netxml files"
 echo -e ""$YS" 0"$CE") Exit"
-echo -e "Choose: "
 sleep 1
 CH=0
-read -e AA
+read -p $'(\e[4;31mhandshake\e[0m)> ' AA
 clear
 if [[ "$AA" = "1" ]]
 then
@@ -902,8 +900,7 @@ then
 		echo -e ""$BS"Validate with: "$CE""
 		echo -e ""$YS" 1"$CE") Pyrit"
 		echo -e ""$YS" 2"$CE") Cowpatty"
-		echo -e "Choose: "
-		read VLD
+		read -p $'(\e[4;33mcheck\e[0m)> ' VLD
 		if [[ "$VLD" = 1 ]]
 		then
 			validate_with_pyrit
