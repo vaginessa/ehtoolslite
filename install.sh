@@ -149,6 +149,7 @@ cp /root/ehtoolslite/eht1 /bin/ehtoolslite
 cp /root/ehtoolslite/eht2 /bin/ehtoolslite
 cp /root/ehtoolslite/eht3 /bin/ehtoolslite
 cp /root/ehtoolslite/eht4 /bin/ehtoolslite
+cp /root/ehtoolslite/eht21 /bin/ehtoolslite
 cp /root/ehtoolslite/eht31 /bin/ehtoolslite
 cp /root/ehtoolslite/eht41 /bin/ehtoolslite
 cp /root/ehtoolslite/eht42 /bin/ehtoolslite
