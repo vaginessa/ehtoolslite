@@ -174,9 +174,14 @@ read -p $'(\e[4;93minstall\e[0m\en)> ' UORI
 if [[ "$UORI" = "d" ]]
 then 
 	clear
-	echo -e "? GO OUT OF THIS PLACE ?"
+	echo -e "OK..."
 	sleep 3
-	break
+	echo -e "running uninstall.sh..."
+	sleep 10
+	cd /root/ehtools
+	chmod +x uninstall.sh
+	./uninstall.sh
+	clear
 elif [[ "$UORI" = "i" ]]
 then
 	clear
