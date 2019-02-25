@@ -120,7 +120,7 @@ do
 	#~ echo -e "Searching for clients"
 	if [[ ! -f "$HANDFORDEAUTH" ]]
 	then
-		echo -e ""$RS"Error 2"$CE""
+		echo -e ""$RS"eht2 returned a fatal error (Can't build clients)"$CE""
 		sleep 2
 		break
 	fi
@@ -248,7 +248,7 @@ function pyrit_hand_check
 		fi
 	else
 		VALIDH=0
-		echo -e ""$RS"No handshake found."$CE""
+		echo -e ""$RS"eht2 returned a fatal error (No handshake found)"$CE""
 		sleep 2
 	fi
 }
@@ -262,7 +262,7 @@ function cowpatty_hand_check
 	if [[ "$TEMPHAND" = "" ]]
 	then
 		VALIDH=0
-		echo -e ""$RS"No handshake found"$CE""
+		echo -e ""$RS"eht2 returned a fatal error (No handshake found)"$CE""
 		sleep 1
 	else
 		VALIDH=1
@@ -336,7 +336,7 @@ do
 		read DPT
 		if [[ ! "$DPT" -gt 0 ]]
 		then
-			echo -e ""$RS"Invalid number"$CE""
+			echo -e ""$RS"eht2 returned a fatal error (Invalid number)"$CE""
 			sleep 2
 			LASTOPTIONS=""
 			continue
@@ -345,7 +345,7 @@ do
 		read DIS
 		if [[ ! "$DIS" -gt 0 ]]
 		then
-			echo -e ""$RS"Invalid number"$CE""
+			echo -e ""$RS"eht2 returned a fatal error (Invalid number)"$CE""
 			sleep 2
 			LASTOPTIONS=""
 			continue
@@ -404,7 +404,7 @@ do
 				export HANDCAP
 				xterm -geometry 50x20+0+999999 -T "AUTOCHECK FOR HANDSHAKE" -e "eht21" & disown
 			else
-				echo -e ""$RS"Invalid interval"$CE""
+				echo -e ""$RS"eht2 returned a fatal error (Invalid interval)"$CE""
 				sleep 2
 			fi
 		fi
