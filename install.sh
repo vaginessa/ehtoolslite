@@ -145,16 +145,8 @@ sleep 1
 mkdir /bin/ehtoolslite
 cd /root/ehtoolslite
 cp /root/ehtoolslite/eht /bin/ehtoolslite
-cp /root/ehtoolslite/eht1 /bin/ehtoolslite
-cp /root/ehtoolslite/eht2 /bin/ehtoolslite
-cp /root/ehtoolslite/eht3 /bin/ehtoolslite
-cp /root/ehtoolslite/eht4 /bin/ehtoolslite
-cp /root/ehtoolslite/eht21 /bin/ehtoolslite
-cp /root/ehtoolslite/eht31 /bin/ehtoolslite
-cp /root/ehtoolslite/eht41 /bin/ehtoolslite
-cp /root/ehtoolslite/eht42 /bin/ehtoolslite
-cp /root/ehtoolslite/eht43 /bin/ehtoolslite
-cp /root/ehtoolslite/eht /bin/ehtoolslite
+cp /root/ehtoolslite/euh /bin
+chmod +x /bin/euh
 cp /root/ehtoolslite/modules /bin
 chmod +x /bin/modules
 clear
