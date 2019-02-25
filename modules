@@ -1,3 +1,5 @@
+clear
+printf '\033]2;Modules (BETA)\a'
 echo -e "               ____   "
 echo -e " Modules      /\___\  "
 echo -e " (BETA)      /\ \___\ "
