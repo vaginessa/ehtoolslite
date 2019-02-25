@@ -145,8 +145,6 @@ sleep 1
 mkdir /bin/ehtoolslite
 cd /root/ehtoolslite
 cp /root/ehtoolslite/eht /bin/ehtoolslite
-cp /root/ehtoolslite/euh /bin
-chmod +x /bin/euh
 cp /root/ehtoolslite/modules /bin
 chmod +x /bin/modules
 clear
