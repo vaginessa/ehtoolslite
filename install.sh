@@ -1,6 +1,41 @@
 #! /bin/bash
+
+# 
+#            --------------------------------------------------
+#                            ehtoolslite Framework          
+#            --------------------------------------------------
+#        Copyright (C) <2015>  <Entynetproject (Ivan Nikolsky)>
+#
+#        This program is free software: you can redistribute it and/or modify
+#        it under the terms of the GNU General Public License as published by
+#        the Free Software Foundation, either version 3 of the License, or
+#        any later version.
+#
+#        This program is distributed in the hope that it will be useful,
+#       but WITHOUT ANY WARRANTY; without even the implied warranty of
+#       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#       GNU General Public License for more details.
+#
+#        You should have received a copy of the GNU General Public License
+#        along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+#
+#
+#    ehtoolslite framework [based on lscript]
+#    
+#    
+#    About Author :
+#    
+#    Founder : Entynetproject (Ivan Nikolsky)
+#    Instagram : @entynetproject | @ehtools_framework
+#    Email : entynetproject@gmail.com
+#    Project's site : https://entynethacker.wixsite.com/ehtools
+#    Entynetproject's site : http://entynetproject.simplesite.com/
+#
+
+
 clear
-printf '\033]2;ehtools INSTALLER\a'
+printf '\033]2;ehtoolslite INSTALLER\a'
 
 echo -e "                                                           "
 echo -e "███████╗██╗  ██╗████████╗ ██████╗  ██████╗ ██╗     ███████╗ \e[1;33mv2.1.6\e[0m"
@@ -17,9 +52,9 @@ echo -e "==> \e[1;33mhttps://entynethacker.wixsite.com/ehtools\e[0m"
 sleep 3
 echo -e "==> \e[1;33mhttp://entynetproject.simplesite.com/\e[0m"
 sleep 3
-echo -e "Creators of Ehtools Framework:"
+echo -e "Creators of Ehtoolslite Framework:"
 sleep 3
-echo -e "\e[4;34mIvan Nikolsky (Enty)\e[0m - Main Coder"
+echo -e "\e[4;34mIvan Nikolsky (Enty)\e[0m - Main Developer"
 sleep 3
 echo -e "\e[4;33mDJ Mobley\e[0m - Ascii Designer"
 sleep 3
