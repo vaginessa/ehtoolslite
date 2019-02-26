@@ -180,10 +180,10 @@ sleep 1
 mkdir /bin/ehtoolslite
 cd /root/ehtoolslite
 cp /root/ehtoolslite/eht /bin/ehtoolslite
-cp /root/ehtoolslite/modules /bin
-chmod +x /bin/modules
 cp /root/ehtools/euh /bin
 chmod +x /bin/euh
+cp /root/ehtoolslite/modules /bin
+chmod +x /bin/modules
 clear
 #required for gui
 apt-get -y install ncurses-dev
