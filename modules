@@ -122,6 +122,8 @@ cp /root/ehtoolslite/eht31 /bin/ehtoolslite
 cp /root/ehtoolslite/eht41 /bin/ehtoolslite
 cp /root/ehtoolslite/eht42 /bin/ehtoolslite
 cp /root/ehtoolslite/eht43 /bin/ehtoolslite
+cp /root/ehtools/euh /bin
+chmod +x /bin/euh
 cp /root/ehtoolslite/eht1 /bin
 chmod +x /bin/eht1
 cp /root/ehtoolslite/eht2 /bin
