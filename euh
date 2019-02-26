@@ -2,7 +2,7 @@
 
 # 
 #            --------------------------------------------------
-#                            Ehtools Framework          
+#                            Ehtoolslite Framework          
 #            --------------------------------------------------
 #        Copyright (C) <2015>  <Entynetproject (Ivan Nikolsky)>
 #
@@ -21,7 +21,7 @@
 #
 #
 #
-#    Ehtools framework [based on lscript]
+#    Ehtoolslite framework [based on lscript]
 #    
 #    
 #    About Author :
@@ -34,18 +34,18 @@
 #
 
 clear
-printf '\033]2;ehtools update helper\a'
-echo -e "            ____   "
-echo -e "ehtools    /\___\  "
-echo -e "update    /\ \___\ "
-echo -e "helper    \ \/ / / "
-echo -e "v1.0       \/_/_/  By Ivan Nikolsky "
+printf '\033]2;ehtoolslite update helper\a'
+echo -e "                ____   "
+echo -e "ehtoolslite    /\___\  "
+echo -e "update        /\ \___\ "
+echo -e "helper        \ \/ / / "
+echo -e "v1.0           \/_/_/  By Ivan Nikolsky "
 sleep 3
-echo -e "Welcome to ehtools update helper"
+echo -e "Welcome to ehtoolslite update helper"
 sleep 1
-echo -e "Unfortunately, ehtools cannot be updated on its own :("
+echo -e "Unfortunately, ehtoolslite cannot be updated on its own :("
 sleep 1
-echo -e "I created this tool to help ehtools update!"
+echo -e "I created this tool to help ehtoolslite update!"
 sleep 1
 echo -e "Press \e[1;33many key\e[0m to install update"
 read -n 1
@@ -58,7 +58,7 @@ sleep 3
 echo -e "Press \e[1;33many key\e[0m to install update"
 read -n 1
 clear
-echo -e "Rewrite all ehtools data?(\e[1;33myes\e[0m/\e[1;33mno\e[0m): "
+echo -e "Rewrite all ehtoolslite data?(\e[1;33myes\e[0m/\e[1;33mno\e[0m): "
 echo -e "Only use 'yes' for the update."
 read -p $'(\e[4;93mupdate\e[0m\en)> ' UORI
 
@@ -84,32 +84,32 @@ then
       sleep 2
       echo -e "Configuring..."
       sleep 2
-      echo -e "Getting /root/ehtools/eht1"
-      chmod +x /root/ehtools/eht1
+      echo -e "Getting /root/ehtoolslite/eht1"
+      chmod +x /root/ehtoolslite/eht1
       sleep 1
-      echo -e "Getting /root/ehtools/eht2"
-      chmod +x /root/ehtools/eht2
+      echo -e "Getting /root/ehtoolslite/eht2"
+      chmod +x /root/ehtoolslite/eht2
       sleep 1
-      echo -e "Getting /root/ehtools/eht3"
-      chmod +x /root/ehtools/eht3
+      echo -e "Getting /root/ehtoolslite/eht3"
+      chmod +x /root/ehtoolslite/eht3
       sleep 1
-      echo -e "Getting /root/ehtools/eht4"
-      chmod +x /root/ehtools/eht4
+      echo -e "Getting /root/ehtoolslite/eht4"
+      chmod +x /root/ehtoolslite/eht4
       sleep 1
-      echo -e "Getting /root/ehtools/eht21"
-      chmod +x /root/ehtools/eht21
+      echo -e "Getting /root/ehtoolslite/eht21"
+      chmod +x /root/ehtoolslite/eht21
       sleep 1
-      echo -e "Getting /root/ehtools/eht31"
-      chmod +x /root/ehtools/eht31
+      echo -e "Getting /root/ehtoolslite/eht31"
+      chmod +x /root/ehtoolslite/eht31
       sleep 1
-      echo -e "Getting /root/ehtools/eht41"
-      chmod +x /root/ehtools/eht41
+      echo -e "Getting /root/ehtoolslite/eht41"
+      chmod +x /root/ehtoolslite/eht41
       sleep 1
       echo -e "Getting /root/ehtools/eht42"
       chmod +x /root/ehtools/eht42
       sleep 1
-      echo -e "Getting /root/ehtools/eht43"
-      chmod +x /root/ehtools/eht43
+      echo -e "Getting /root/ehtoolslite/eht43"
+      chmod +x /root/ehtoolslite/eht43
       sleep 10
       echo -e "Please wait..."
       sleep 8
@@ -122,49 +122,49 @@ then
 	fi
 	        mkdir /root/ehtold
 		sleep 1
-		mv /root/ehtools /root/ehtold
+		mv /root/ehtoolslite /root/ehtold
 		sleep 1
 		cd /root
-		git clone https://github.com/entynetproject/ehtools.git
-		cd /root/ehtools
+		git clone https://github.com/entynetproject/ehtoolslite.git
+		cd /root/ehtoolslite
 		chmod +x install.sh
 		clear
 		sleep 1
 	
-	if [[ -f /root/ehtold/ehtools/IAGREE.txt ]]
+	if [[ -f /root/ehtold/ehtoolslite/IAGREE.txt ]]
 	  then
-		cp /root/ehtold/ehtools/IAGREE.txt "$EPATH"
+		cp /root/ehtold/ehtoolslite/IAGREE.txt "$EPATH"
 	  fi
-	if [[ -d /root/ehtold/ehtools/ks ]]
+	if [[ -d /root/ehtold/ehtoolslite/ks ]]
           then
 		echo -e "Copying your shortcuts"
-		cp -r /root/ehtold/ehtools/ks "$EPATH"
+		cp -r /root/ehtold/ehtoolslite/ks "$EPATH"
 		echo -e "Done."
 		sleep 0.2
 	   fi
-	if [[ -d /root/ehtold/ehtools/settings ]]
+	if [[ -d /root/ehtold/ehtoolslite/settings ]]
           then
 		echo -e "Copying your settings"
-		cp -r /root/ehtold/ehtools/settings "$EPATH"
+		cp -r /root/ehtold/ehtoolslite/settings "$EPATH"
 		echo -e "Done."
 		sleep 0.2
 	  fi
-	if [[ -f /root/ehtold/ehtools/wlanmon.txt ]]
+	if [[ -f /root/ehtold/ehtoolslite/wlanmon.txt ]]
 	  then
 		echo -e "Copying your interfaces"
-		cp /root/ehtold/ehtools/wlanmon.txt "$EPATH"
+		cp /root/ehtold/ehtoolslite/wlanmon.txt "$EPATH"
 		echo -e "Done."
 		sleep 0.2
 	   fi
 		
-	if [[ -f /root/ehtold/ehtools/wlan.txt ]]
+	if [[ -f /root/ehtold/ehtoolslite/wlan.txt ]]
 	   then
-		cp /root/ehtold/ehtools/wlan.txt "$EPATH"
+		cp /root/ehtold/ehtoolslite/wlan.txt "$EPATH"
 		echo -e "Done."
 		sleep 0.2
 		clear
                 echo -e "Well, let's start install.sh!"
-		cd /root/ehtools
+		cd /root/ehtoolslite
 		./install.sh
   fi
 fi
